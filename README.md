@@ -1,15 +1,15 @@
-# Telegram web fake page
+# Telegram Phishing Leak
 
 ## About <a name = "about"></a>
 This is a fake page for telegram that steals telegram web session.<br>
-After clicking the submit button, the session will be saved in the log.txt file Then the user is redirected to the Telegram login page.<br>
-Edit the post.php file to rename log.txt and redirect URL.
+Upon logging into the fake telegram site, the session will be sent to your discord webhook, then the user is redirected to the real Telegram login page.<br>
+Edit the index.html and put your webhook into the webhook variable at the bottom of the page.
 
 ## Demo Video <a name = "demo"></a>
 
 
 
-https://user-images.githubusercontent.com/59066012/161079545-1fdacada-8905-4a0c-9251-27266272fc6a.mp4
+
 
 
 
